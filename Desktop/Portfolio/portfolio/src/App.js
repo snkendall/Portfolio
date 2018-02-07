@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import FontAwesome from 'react-fontawesome';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <div className="logo-container">
+            <FontAwesome
+              className='fas fa-cog slow-spin images'
+              name='headshotSpinner'
+              size='10x' 
+            />
+            <img className="headshot images" src="./images/cropped.jpg" />
+          </div>
+          {/* <h1 className="App-title">Oh Hello</h1> */}
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          I'm a Full Stack Engineer. Amongst other things.
         </p>
       </div>
     );

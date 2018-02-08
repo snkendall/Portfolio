@@ -1,5 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 100%;
   font-family: sans-serif;
+  background: url('wallpaper2.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+

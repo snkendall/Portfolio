@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import FontAwesome from 'react-fontawesome';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import Menu from './components/Menu';
+import { Navbar } from './components';
+//import Menu from './components/Menu';
 
 /**
  * COMPONENT
@@ -17,9 +16,9 @@ class App extends Component {
     const { children } = this.props;
     return (
       <div className="App">
-        <Menu />
+        <Navbar />
         {children}
-      </div>
+      </div>  
     );
   }
 }

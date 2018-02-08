@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import FontAwesome from 'react-fontawesome';
 import { Link, withRouter } from 'react-router-dom';
 
@@ -33,9 +32,10 @@ export class Menu extends React.Component {
         <nav className="menu">
           <input type="checkbox" checked={menuOpen} href="#" className="menu-open" name="menu-open" id="menu-open" />
           <label onClick={this.handleMenuClick} className="menu-open-button" htmlFor="menu-open">
-            <span className="lines line-1" />
+            Menu
+            {/* <span className="lines line-1" />
             <span className="lines line-2" />
-            <span className="lines line-3" />
+            <span className="lines line-3" /> */}
           </label>
           <Link to="#" 
                 onClick={this.handleOutsideClick} 
@@ -65,6 +65,3 @@ export class Menu extends React.Component {
 
 export default withRouter(Menu);
 
-Menu.propTypes = {
-  handleClick: PropTypes.func.isRequired,
-};

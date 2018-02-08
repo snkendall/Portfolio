@@ -1,11 +1,13 @@
 .App {
   text-align: center;
+  min-width: 100%;
 }
 
 .App-header {
-  background-color: #8FD8D2;
-  height: 200px;
-  padding: 20px;
+  background-color: rgba(143, 216, 210, 0.85);
+  height: 18em;
+  width: 100%;
+  padding: 5px;
   color: white;
 }
 
@@ -14,10 +16,97 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: 2em;
 }
 
-/* BEGIN MENU CSS */
+.text-border {
+  margin: 5em 10em;
+  padding: 5em;
+  border-radius: 2em;
+  background-color: rgba(255, 255, 255, 0.70);
+}
+
+.logo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.lrg-icon {
+  font-size: 160px;
+}
+
+.images {
+  position: absolute;
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 20s infinite linear;
+  animation: fa-spin 20s infinite linear;
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 100px;
+  z-index: 2;
+}
+
+.logo-spacer {
+  flex-grow: 5;
+  height: 70%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 100%;
+}
+
+.contact-button {
+  color: #DCB239;
+  margin: 3px 5px;
+}
+
+.yellow-accent {
+  color: #DCB239;
+}
+
+.nav-container {
+  background-color: #FEDCD2;
+}
+
+.nav-item-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar-text {
+  color: #DF744A;
+  font-family: 'PT Serif', serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+}
+
+.my-name {
+  flex-grow: 5;
+  text-align: left;
+  font-size: 30px;
+}
+
+.nav-item {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* 
+
 
 .menu {
   z-index: 9999999;
@@ -246,48 +335,5 @@
     text-shadow: none;
   }
 
-  
 
-  /* END MENU CSS */
-
-
-.logo-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.images {
-  position: absolute;
-}
-
-.slow-spin {
-  -webkit-animation: fa-spin 20s infinite linear;
-  animation: fa-spin 20s infinite linear;
-}
-
-
-.headshot {
-  border-radius: 50%;
-  height: 100px;
-  z-index: 2;
-}
-
-.contact-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-button {
-  color: #DCB239;
-  margin: 3px 5px;
-}
-
-.yellow-accent {
-  color: #DCB239;
-}
-
-
+*/

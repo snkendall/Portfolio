@@ -17,35 +17,35 @@ class App extends Component {
           </div>
         </header>
         <div className='contact-container'>
-          <a className="contact-button" href='mailto:snkendall@gmail.com'>
+          <a className="contact-button" href='mailto:snkendall@gmail.com' target='_blank'>
               <FontAwesome 
                 className='fas fa-envelope contact-button'
                 name='emailIcon'
                 size='md'
               />
           </a>
-          <a className="contact-button" href='https://github.com/snkendall'>
+          <a className="contact-button" href='https://github.com/snkendall' target='_blank'>
               <FontAwesome 
                 className='fab fa-github contact-button'
                 name='gitHubIcon'
                 size='md'
               />
           </a>
-          <a className="contact-button" href='https://www.linkedin.com/in/shannonkendall-/'>
+          <a className="contact-button" href='https://www.linkedin.com/in/shannonkendall-/' target='_blank'>
               <FontAwesome 
                 className='fab fa-linkedin contact-button'
                 name='linkedInIcon'
                 size='md'
               />
           </a>
-          <a className="contact-button" href='https://stackoverflow.com/users/7964786/snkendall?tab=profile'>
+          <a className="contact-button" href='https://stackoverflow.com/users/7964786/snkendall?tab=profile' target='_blank'>
               <FontAwesome 
                 className='fab fa-stack-overflow contact-button'
                 name='stackOverflowIcon'
                 size='md'
               />
           </a>
-          <a className="contact-button" href='https://twitter.com/snkendall_'>
+          <a className="contact-button" href='https://twitter.com/snkendall_' target='_blank'>
               <FontAwesome 
                 className='fab fa-twitter contact-button'
                 name='twitterIcon'

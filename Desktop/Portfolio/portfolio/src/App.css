@@ -19,9 +19,15 @@
   font-size: 2em;
 }
 
+p {
+  font-size: 2em;
+  font-family: 'PT Serif', serif;
+  padding: 1em;
+}
+
 .text-border {
-  margin: 5em 10em;
-  padding: 5em;
+  margin: 5em 7em;
+  padding: 4em;
   border-radius: 2em;
   background-color: rgba(255, 255, 255, 0.70);
 }

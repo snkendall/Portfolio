@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
-import {Home} from './components';
+import {Home, About} from './components';
 import App from './App';
 
 /**
@@ -15,6 +15,7 @@ class Routes extends Component {
         <App>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
           </Switch>
         </App>
       </Router>

@@ -3,6 +3,9 @@ import Modal from 'react-modal';
 import { withRouter } from 'react-router-dom';
  
 const customStyles = {
+    overlay : {
+        zIndex: '4'
+    },
   content : {
     top                   : '50%',
     left                  : '50%',
@@ -40,14 +43,13 @@ class VideoModal extends React.Component {
     this.setState({modalIsOpen: false});
   }
 
- // <iframe width="560" height="315" src="https://www.youtube.com/embed/3lZ2l3lYVOc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  //    onAfterOpen={this.afterOpenModal}
  
   render() {
     const {title, embeddingCode} = this.props
     return (
       <div>
-        <button className="modal-overlay" onClick={this.openModal}></button>
+        <button className="modal-overlay" onClick={this.openModal} hidden={this.state.modalIsOpen}></button>
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}

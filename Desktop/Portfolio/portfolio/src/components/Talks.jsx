@@ -3,6 +3,7 @@ import FontAwesome from 'react-fontawesome';
 import VideoModal from './VideoModal';
 import { withRouter } from 'react-router-dom';
 
+
 const Talks = () => {
 
     return (
@@ -18,7 +19,10 @@ const Talks = () => {
                         size='4x'
                     />
                     <img className="thumbnail" src="./images/talk1.jpeg"></img>
-                    <VideoModal title={'ReactNYC'} embeddingCode={<iframe width="560" height="315" src="https://www.youtube.com/embed/3lZ2l3lYVOc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>}/>
+                    <VideoModal 
+                    title={'ReactNYC'} 
+                    embeddingCode={<iframe width="560" height="315" src="https://www.youtube.com/embed/3lZ2l3lYVOc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>}
+                    />
                 </div>
             </div>
             <div className="spacer"></div>
@@ -28,7 +32,7 @@ const Talks = () => {
                 <h3 className="subtitle text">Introducing Firebase to Your App</h3>
                 <h4 className="note text">in collaboration with 
                     <a href="#">Ashi Krishnan</a>
-               </h4>
+            </h4>
             </div> 
         </div>
     )

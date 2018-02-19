@@ -30,8 +30,7 @@ const Talks = () => {
             <div className="text-border">
                 <h2 className="title text">AngularNYC April 2018</h2>
                 <h3 className="subtitle text">Introducing Firebase to Your App</h3>
-                <h4 className="note text">in collaboration with 
-                    <a href="#">Ashi Krishnan</a>
+                <h4 className="note text">in collaboration with <a href="#">Ashi Krishnan</a>
             </h4>
             </div> 
         </div>

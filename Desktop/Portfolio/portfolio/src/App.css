@@ -166,6 +166,12 @@ p {
   line-height: 0;
 }
 
+.blog-image {
+  height: 22em;
+  width: 38em;
+  overflow: hidden;
+}
+
 /* 
 
 

@@ -26,8 +26,8 @@ p {
 }
 
 .text-border {
-  margin: 5em 7em;
-  padding: 4em;
+  margin: 1em 4em;
+  padding: 1em;
   border-style: solid;
   border-color: #DCB239;
   border-width: 3px;
@@ -112,6 +112,57 @@ p {
 .nav-item {
   font-size: 20px;
   text-decoration: none;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+
+.text {
+  font-family: serif;
+}
+
+.headline {
+  margin-bottom: 20px;
+}
+
+.image-wrapper {
+  position: relative;
+  padding: .5em;
+  margin: .5em;
+}
+
+.modal-overlay {
+  position: absolute;
+  z-index: 3;
+  width: 220px;
+  height: 170px;
+  top: 0em;
+  left: 22.5em;
+}
+
+.play-icon {
+  position: absolute;
+  left: 5em;
+  top: .75em;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  border-style: solid;
+  border-radius: 10%;
+  border-width: 3px;
+  border-color: #DCB239;
+}
+
+.spacer {
+  font-size: 0; 
+  height: 35px;
+  line-height: 0;
 }
 
 /* 

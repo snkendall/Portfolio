@@ -28,8 +28,8 @@ export default withRouter(App);
 /**
  * PROP TYPES
  */
-App.propTypes = {
-  children: PropTypes.object,
-};
+// App.propTypes = {
+//   children: PropTypes.object,
+// };
 
 
